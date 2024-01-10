@@ -23,6 +23,11 @@ ul li a{
     padding-left: 20px;
     padding-right: 20px;
 }
+.list_footer {
+    display: flex;
+    flex-direction: column;
+
+}
 
 li{
     display: inline-block;
@@ -139,4 +144,33 @@ h4{
         font-weight: bold;
         background-color: #ED2024;
         color: white;
+}
+
+.footer {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    width: 100%;
+}
+
+.list_footer {
+    width: 100%;
+}
+
+.list_footer li a {
+    padding-left: 0%;
+}
+
+div a img {
+    width: 50%;
+}
+
+.footer_menu {
+    width: 20%;
+    display: flex;
+}
+
+.social_icon {
+    width: 27%;
+    display: flex;
 }
